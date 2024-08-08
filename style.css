@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom:55px ;
+
+}
+.logo{
+    font-family: fuggles;
+    font-weight: 400;
+    font-size: 50px;
+    text-decoration: none;
+    color:#eee3c1;
+    height: 49px;
+    width: 211px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    height: 24px;
+}
+
+.menu-link{
+    text-decoration: none;
+    font-family: ubuntu;
+    color:#eee3c1;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.location::before {
+    content: url("./assets/solar_point-on-map-bold.svg");
+    vertical-align: middle;
+}
+
+.section-1{
+    display:flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    gap:22px ;
+    flex-grow: 1;
+}
+
+.column-1 h1 {
+    line-height: 0.7em;
+}
+
+.about{
+    font-family: oswald;
+    text-transform: uppercase;
+    color: #d0021b;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.text-1{
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 17px;
+    color:#eee3c1;
+}
+
+.btn-1{
+    border: 2px solid #bb4141;
+    width: 140px;
+    height: 50px;
+    background-color: transparent;
+    font-family: oswald;
+    color: #eee3c1;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.btn-1:hover{
+    background-color: #bb4141;
+    cursor: pointer;
+}
+.prof{
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 50px;
+    color: #d0021b;
+    text-transform: uppercase;
+    margin-bottom:121px;
+}
+.column-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.column-3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.work-for{
+    font-family: oswald;
+    color: #d0021b;
+    font-weight: 700;
+    font-size: 35px;
+    width: 232px; 
+    height: 45px;
+    margin-bottom: -2px; 
+}
+
+.btn-2-active{
+    width: 240px;
+    height: 64px;
+    border-radius: 2px;
+    border: none;
+    background-color: #6d0310;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 17px;
+    color: #eee3c1;
+}
+
+.workflow{
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 25px;
+    color: #d0021b;
+    height: 36px;
+    margin-bottom: -12px;
+}
+
+.btn-2{
+    width: 240px;
+    height: 64px;
+    border-radius: 2px;
+    border: none;
+    background-color: #bb4141;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 17px;
+    color: #eee3c1;
+}
+
+.btn-2:hover{
+    border: 3px solid #eee3c1;
+    cursor: pointer;
+}
+
+.btn-2-active:hover{
+    border: 3px solid #eee3c1;
+    cursor: pointer;  
+}
+.workflow-list {
+    list-style-type: none;
+}
+
+.list-item {
+    margin-top: 15px;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.43;
+    text-transform: uppercase;
+    color: #eee3c1;
+}
+
+.list-description{
+    margin-bottom: 32px;
+}
+.list-item::before {
+    vertical-align: middle;
+    padding-right: 0.5em;
+}
+
+.item-1::before {
+    content: url("./assets/Frame\ 46.svg");
+}
+
+.list-description {
+    margin-left: calc(32px + 0.5em);
+    font-family: "Oswald", sans-serif;
+    color: #eee3c1;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.43;
+}
+
+.item-2::before {
+    content: url("./assets/Frame\ 47.svg");
+}
+
+.item-3::before{
+    content: url(assets/Frame\ 48.svg);
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    gap:170px;
+    margin-bottom: 130px;
+}
+
+.column-2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.column-2-1 h2{
+    line-height: 1.75rem;
+}
+
+.column-2-2{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.h3{
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.contacts{
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+}
+
+.item-contacts{
+    font-family: oswald;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+}
+
+.hey{
+    font-family: oswald;
+    font-weight: 700px;
+    font-size: 25px;
+    color: #000;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 566px;
+    background: linear-gradient(#EEE3C1, #BC6060);
+    border-radius: 2px;
+    margin-bottom: 130px;
+}
+
+.column-3-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column-3-1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.mcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.inst{
+    margin-left: -1px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap:387px ;
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 16px;
+    color: #eee3c1;
+}
+.ml{
+    color: #eee3c1;
+}
+
+.body{
+    background-color: #000;
+}
