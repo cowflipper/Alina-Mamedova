@@ -47,7 +47,11 @@
 
 .location::before {
     content: url("./assets/solar_point-on-map-bold.svg");
-    vertical-align: middle;
+    vertical-align:middle;
+}
+
+.location{
+    line-height: 0.75em;
 }
 
 .section-1{
